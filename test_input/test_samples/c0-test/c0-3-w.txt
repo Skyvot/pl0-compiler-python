@@ -1,0 +1,43 @@
+int tmp1;
+const tmp2,2tmp;
+Int tmp3;
+int testFunciton1(y)
+{
+    y=1;
+}
+
+void testFunciton2(int x)
+{
+   x=2;
+   return (x);
+}
+
+int testFunciton3(int x) 
+{
+   int i,result;
+   i=1
+   if (x<=0) 
+      return (0);
+   i=2;
+   while(i<=x)
+   { 
+      result=result*e;
+      i=i+1;
+   }
+   return (result);
+}
+}
+int main()
+{
+   int number, test;
+   printf("Input a number:");
+   scanf(number);
+   test=testFunciton3(number);
+   printf(test);
+   if (test<UPPER) 
+     printf("less than upper_line",UPPER-test);
+   else
+     printf("more than upper_line",test-UPPER);
+   printf("Now we test the nagtive-parameter:");
+   printf(testFunciton3(-1));
+}
